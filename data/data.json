@@ -1,0 +1,189 @@
+{
+    "current": {
+        "current_temp": "13",
+        "flike": "LÉGÈRE PLUIE",
+        "humidite": "86%",
+        "icon": "40",
+        "mise_a_jour": "16:11 le 20/1/2019",
+        "pression": "1009.1 mb",
+        "temp_ressentie": "12",
+        "vent": "SO 13 km/h",
+        "visibilite": "6.4 km"
+    },
+    "day": {
+        "day_l_soleil": "07:57",
+        "l_soleil": "07:57",
+        "c_soleil": "18:00",
+        "day_c_soleil": "18:00",
+        "day_max": "Bad value format: expecting /^-?[0-9]{1,2}$/ got --",
+        "day_min": "7",
+        "max": "Bad value format: expecting /^-?[0-9]{1,2}$/ got --",
+        "min": "7",
+        "icon": "12",
+        "icon_nuit": "12",
+        "flike": "Pluie",
+        "flike_nuit": "Pluie"
+    },
+    "tenday": [{
+        "day_l_soleil": "07:57",
+        "l_soleil": "07:57",
+        "c_soleil": "18:00",
+        "day_c_soleil": "18:00",
+        "day_max": "Bad value format: expecting /^-?[0-9]{1,2}$/ got --",
+        "day_min": "7",
+        "max": "Bad value format: expecting /^-?[0-9]{1,2}$/ got --",
+        "min": "7",
+        "icon": "12",
+        "icon_nuit": "12",
+        "flike": "Pluie",
+        "flike_nuit": "Pluie"
+    }, {
+        "day_l_soleil": "07:57",
+        "l_soleil": "07:57",
+        "c_soleil": "18:01",
+        "day_c_soleil": "18:01",
+        "day_max": "12",
+        "day_min": "5",
+        "max": "12",
+        "min": "5",
+        "icon": "12",
+        "icon_nuit": "12",
+        "flike": "Pluie",
+        "flike_nuit": "Pluie"
+    }, {
+        "day_l_soleil": "07:56",
+        "l_soleil": "07:56",
+        "c_soleil": "18:02",
+        "day_c_soleil": "18:02",
+        "day_max": "11",
+        "day_min": "7",
+        "max": "11",
+        "min": "7",
+        "icon": "40",
+        "icon_nuit": "12",
+        "flike": "Averses",
+        "flike_nuit": "Pluie"
+    }, {
+        "day_l_soleil": "07:56",
+        "l_soleil": "07:56",
+        "c_soleil": "18:03",
+        "day_c_soleil": "18:03",
+        "day_max": "14",
+        "day_min": "9",
+        "max": "14",
+        "min": "9",
+        "icon": "12",
+        "icon_nuit": "12",
+        "flike": "Pluie / Vent",
+        "flike_nuit": "Pluie / Vent"
+    }, {
+        "day_l_soleil": "07:55",
+        "l_soleil": "07:55",
+        "c_soleil": "18:04",
+        "day_c_soleil": "18:04",
+        "day_max": "12",
+        "day_min": "6",
+        "max": "12",
+        "min": "6",
+        "icon": "12",
+        "icon_nuit": "12",
+        "flike": "Pluie / Vent",
+        "flike_nuit": "Pluie"
+    }, {
+        "day_l_soleil": "07:54",
+        "l_soleil": "07:54",
+        "c_soleil": "18:05",
+        "day_c_soleil": "18:05",
+        "day_max": "12",
+        "day_min": "4",
+        "max": "12",
+        "min": "4",
+        "icon": "40",
+        "icon_nuit": "29",
+        "flike": "Averses dans la matinée",
+        "flike_nuit": "Peu nuageux"
+    }, {
+        "day_l_soleil": "07:54",
+        "l_soleil": "07:54",
+        "c_soleil": "18:06",
+        "day_c_soleil": "18:06",
+        "day_max": "12",
+        "day_min": "4",
+        "max": "12",
+        "min": "4",
+        "icon": "40",
+        "icon_nuit": "33",
+        "flike": "Averses dans la matinée",
+        "flike_nuit": "Ciel plutôt dégagé"
+    }, {
+        "day_l_soleil": "07:53",
+        "l_soleil": "07:53",
+        "c_soleil": "18:07",
+        "day_c_soleil": "18:07",
+        "day_max": "14",
+        "day_min": "5",
+        "max": "14",
+        "min": "5",
+        "icon": "40",
+        "icon_nuit": "40",
+        "flike": "Averses dans l'après-midi",
+        "flike_nuit": "Averses"
+    }, {
+        "day_l_soleil": "07:53",
+        "l_soleil": "07:53",
+        "c_soleil": "18:08",
+        "day_c_soleil": "18:08",
+        "day_max": "14",
+        "day_min": "5",
+        "max": "14",
+        "min": "5",
+        "icon": "40",
+        "icon_nuit": "40",
+        "flike": "Averses",
+        "flike_nuit": "Averses"
+    }, {
+        "day_l_soleil": "07:52",
+        "l_soleil": "07:52",
+        "c_soleil": "18:09",
+        "day_c_soleil": "18:09",
+        "day_max": "13",
+        "day_min": "5",
+        "max": "13",
+        "min": "5",
+        "icon": "40",
+        "icon_nuit": "45",
+        "flike": "Averses",
+        "flike_nuit": "Averses orageuses dans l'après-midi"
+    }],
+    "hours": [{
+        "flike": "Pluie",
+        "icon": "12",
+        "tmp": "13",
+        "time": "16:30"
+    }, {
+        "flike": "Averses",
+        "icon": "40",
+        "tmp": "13",
+        "time": "17:00"
+    }, {
+        "flike": "Averses",
+        "icon": "40",
+        "tmp": "12",
+        "time": "18:00"
+    }, {
+        "flike": "Averses",
+        "icon": "40",
+        "tmp": "12",
+        "time": "19:00"
+    }, {
+        "flike": "Averses",
+        "icon": "40",
+        "tmp": "11",
+        "time": "20:00"
+    }, {
+        "flike": "Légère pluie",
+        "icon": "40",
+        "tmp": "11",
+        "time": "21:00"
+    }]
+}
