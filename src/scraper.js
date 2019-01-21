@@ -73,12 +73,22 @@ const scrape = async (town) => {
         timeout: 0,
         waitUntil: ["domcontentloaded", "networkidle0"]
     });
-    // await page.waitFor(10000)
 
-    await page.waitFor('#twc-scrollabe > table > tbody > tr:nth-child(1)')
-    console.log(await page.click('#twc-scrollabe > table > tbody > tr:nth-child(1)'));
-
-    await page.waitFor('tr:nth-child(3) > td.sunrise > div > span:nth-child(2)');
+    let i = 0;
+    let found = false;
+    const maxRetries = 100;
+    do {
+        // waits for the element we need to click
+        await page.waitForSelector('#twc-scrollabe > table > tbody > tr:nth-child(1)')
+        // clicks it
+        await page.click('#twc-scrollabe > table > tbody > tr:nth-child(1)')
+        try {
+            // waits for the content we need
+            await page.waitForSelector('tr:nth-child(3) > td.sunrise > div > span:nth-child(2)', {timeout:1000});
+            // if the content won't be showed the code doesn't go on and the next line won't be reached
+            found = true;
+        } catch(e) {}
+    } while(!found || i > maxRetries) // the maxRetries variable is mere prudence
 
     const dayJson = await page.evaluate((format, conditions) => {
         const day = {};
@@ -240,4 +250,3 @@ const scrapAll = async () => {
 }
 
 scrapAll();
-
